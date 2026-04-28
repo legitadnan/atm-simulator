@@ -1,0 +1,79 @@
+body {
+  background: #0b0f0b;
+  font-family: monospace;
+  color: #00ff88;
+  text-align: center;
+}
+
+.atm {
+  width: 350px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #111;
+  border-radius: 20px;
+  box-shadow: 0 0 20px #00ff88;
+}
+
+.top {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.top span {
+  color: #00ff88;
+}
+
+.screen {
+  background: black;
+  padding: 20px;
+  margin: 20px 0;
+  border: 2px solid #00ff88;
+  height: 150px;
+}
+
+.screen h2 {
+  margin: 0;
+  color: #00ff88;
+}
+
+.side-buttons {
+  position: absolute;
+}
+
+.left {
+  left: 10px;
+}
+
+.right {
+  right: 10px;
+}
+
+.side-buttons button {
+  display: block;
+  width: 20px;
+  height: 40px;
+  margin: 10px 0;
+  background: #222;
+  border: none;
+  border-radius: 5px;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.keypad button {
+  height: 60px;
+  font-size: 18px;
+  background: #222;
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
+
+.keypad button:hover {
+  background: #00ff88;
+  color: black;
+}
