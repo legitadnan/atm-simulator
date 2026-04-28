@@ -1,0 +1,24 @@
+# Python Best Practices .gitignore
+
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# IDE files
+.idea/
+*.sublime-*  
+.vscode/
+*.swp
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Accounts configuration file
+accounts.json
